@@ -1,0 +1,40 @@
+.link-logo{
+    padding: 10px;
+}
+.link-logo img{
+    height: 30px;
+}
+.perfil{
+    padding: 10px;
+}
+.perfil li:first-child{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.cabecalho h1{
+    margin: 0;
+    font-size: 3em;
+}
+.busca{
+    margin-top: 5px;
+}
+.dadosOs{
+    margin-top: 30px;
+}
+
+@media (max-width: 767px){
+    .perfil{
+        color: #fff;
+    }
+    .perfil a{
+        color: #9d9d9d; display: block; padding: 5px 0;
+    }
+    .perfil a:hover{
+        text-decoration: none; color: #fff;
+    }
+    .paginacao{
+        text-align: center;
+        margin-top: 20px;
+    }
+}
